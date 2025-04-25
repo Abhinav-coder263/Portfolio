@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Using HTML & css</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b16e5bc64c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    <div class="bars-animation">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+    <section class="home">
+        <div class="home-info">
+            <!-- <h1>Contact Now</h1> -->
+            <section id="contact">
+                <div class="contact-container">
+                    <h2>Get in Touch</h2>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="69db2ff4-0dbf-437f-ad0a-543c007d4637">
+                        <!-- <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Message"></textarea> -->
+                        <input type="text" name="name" required placeholder="Name">
+                        <input type="email" name="email" required placeholder="Email">
+                        <textarea name="message" required placeholder="Message"></textarea>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <button>Send</button>
+                    </form>
+                </div>
+            </section>
+            <div class="btn-social">
+                <a href="Abhinav_kumar_resume 2025.pdf" class="btn">Download CV</a>
+                <div class="social">
+                    <a href="https://github.com/Abhinav-coder263?tab=repositories"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhinav-kumar-678580217"><i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@TechieAKCBROS"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-items">
+                    <img src="profile.png" alt="profile">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
